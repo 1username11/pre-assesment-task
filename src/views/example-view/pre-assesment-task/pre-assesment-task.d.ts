@@ -1,6 +1,1 @@
-interface IRow {
-  count?: number
-  location?: string
-  salary?: string
-  timestamp?: string
-}
+type TRow = Record<string, string | number>

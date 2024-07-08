@@ -14,6 +14,6 @@
 
 <script setup lang="ts">
 defineProps<{
-  row: IRow
+  row: TRow
 }>()
 </script>
