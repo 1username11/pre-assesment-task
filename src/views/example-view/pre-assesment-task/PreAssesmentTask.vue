@@ -1,8 +1,10 @@
 <template>
   <div class="p-6 divide-y-2">
-    <template v-for="(row, index) in rows" :key="index">
-      <DynamicSeparatorRow :row="row" />
-    </template>
+    <DynamicSeparatorRow
+      v-for="(row, index) in rows"
+      :key="index"
+      :row="row"
+    />
   </div>
 </template>
 
